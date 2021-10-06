@@ -1,0 +1,6 @@
+{
+  "rules": {
+    "space-before-function-paren": 0 //let ESLint work with Prettier avoiding conflicts and problems
+  },
+  "extends": ["@nuxtjs/eslint-config-typescript"]
+}
