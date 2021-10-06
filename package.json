@@ -1,4 +1,7 @@
 {
+  "engines": {
+    "node": "14.17.1"
+  },
   "scripts": {
     "dev": "nuxt-ts",
     "build": "nuxt-ts build",
