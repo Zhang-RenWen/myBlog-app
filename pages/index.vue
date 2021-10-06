@@ -1,5 +1,6 @@
 <template>
   <client-only>
+    {{ 'deploy test' }}
     <Tutorial />
   </client-only>
 </template>
