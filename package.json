@@ -2,11 +2,13 @@
   "engines": {
     "node": "14.17.1"
   },
+  "description": "Nuxt for Heroku deployment",
+  "main": "index.js",
   "scripts": {
     "dev": "nuxt-ts",
     "build": "nuxt-ts build",
     "generate": "nuxt-ts generate",
-    "start": "node dist/index.js",
+    "start": "nuxt start",
     "lint": "eslint --ext .ts,.js,.vue .",
     "heroku-postbuild": "nuxt build"
   },
