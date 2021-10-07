@@ -1,3 +1,1 @@
 # myBlog-app
-
-# autoDeploy test
