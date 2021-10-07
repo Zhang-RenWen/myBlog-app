@@ -6,9 +6,9 @@
     "dev": "nuxt-ts",
     "build": "nuxt-ts build",
     "generate": "nuxt-ts generate",
-    "start": "nuxt start",
+    "start": "node dist/index.js",
     "lint": "eslint --ext .ts,.js,.vue .",
-    "heroku-postbuild": "nuxt-ts build"
+    "heroku-postbuild": "nuxt build"
   },
   "dependencies": {
     "nuxt": "latest"
