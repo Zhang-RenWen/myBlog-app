@@ -12,12 +12,14 @@
     "heroku-postbuild": "nuxt build"
   },
   "dependencies": {
+    "@nuxt/typescript-runtime": "latest",
     "nuxt": "latest"
   },
   "devDependencies": {
     "@nuxt/types": "^2.15.8",
     "@nuxt/typescript-build": "^2.1.0",
     "@nuxtjs/eslint-config-typescript": "^6.0.1",
-    "eslint": "^7.32.0"
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^5.0.0"
   }
 }

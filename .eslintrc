@@ -1,6 +1,18 @@
 {
   "rules": {
-    "space-before-function-paren": 0 //let ESLint work with Prettier avoiding conflicts and problems
+    "space-before-function-paren": 0, //let ESLint work with Prettier avoiding conflicts and problems
+    "vue/html-self-closing": [
+      "error",
+      {
+        "html": {
+          "void": "always",
+          "normal": "never",
+          "component": "always"
+        },
+        "svg": "always",
+        "math": "always"
+      }
+    ]
   },
-  "extends": ["@nuxtjs/eslint-config-typescript"]
+  "extends": ["@nuxtjs/eslint-config-typescript", "plugin:vue/recommended"]
 }
