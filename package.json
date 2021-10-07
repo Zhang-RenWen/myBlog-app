@@ -3,7 +3,6 @@
     "node": "14.17.1"
   },
   "description": "Nuxt for Heroku deployment",
-  "main": "index.js",
   "scripts": {
     "dev": "nuxt-ts",
     "build": "nuxt-ts build",
