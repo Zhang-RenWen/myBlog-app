@@ -8,7 +8,7 @@
     "generate": "nuxt-ts generate",
     "start": "nuxt start",
     "lint": "eslint --ext .ts,.js,.vue .",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "nuxt build"
   },
   "dependencies": {
     "nuxt": "latest"
