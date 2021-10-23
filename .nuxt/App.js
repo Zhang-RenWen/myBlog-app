@@ -10,6 +10,8 @@ import '../assets/scss/main.scss'
 
 import '../assets/scss/mixins.scss'
 
+import '../assets/scss/variables.scss'
+
 import _6f6c098b from '../layouts/default.vue'
 import _77a66d33 from '../layouts/login.vue'
 

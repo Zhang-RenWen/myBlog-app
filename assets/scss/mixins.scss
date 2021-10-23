@@ -1,0 +1,8 @@
+@mixin rounded-border {
+  border: 2px #333 solid;
+  border-radius: 5px;
+}
+@mixin display-flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}

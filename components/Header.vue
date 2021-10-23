@@ -13,7 +13,9 @@
 <style lang="scss" scoped>
 header {
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
+  @include display-flex-wrap;
+  a {
+    color: #ffffff;
+  }
 }
 </style>
