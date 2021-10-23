@@ -12,7 +12,10 @@
         "svg": "always",
         "math": "always"
       }
-    ]
+    ],
+    "vue/singleline-html-element-content-newline": "off",
+    "vue/multiline-html-element-content-newline": "off"
   },
+
   "extends": ["@nuxtjs/eslint-config-typescript", "plugin:vue/recommended"]
 }

@@ -1,7 +1,7 @@
 <template>
-  <client-only>
-    <LatestArticles />
-  </client-only>
+  <div>
+    {{ 'profile' }}
+  </div>
 </template>
 
 <script lang="ts">

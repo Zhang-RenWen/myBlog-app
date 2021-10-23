@@ -1,7 +1,7 @@
 <template>
-  <client-only>
-    <LatestArticles />
-  </client-only>
+  <div>
+    {{ 'classificationList' }}
+  </div>
 </template>
 
 <script lang="ts">

@@ -1,5 +1,40 @@
 [
   {
+    "name": "article",
+    "path": "/article",
+    "component": "/Users/zhangrenwen/專案/myBlog/app/pages/article/index.vue",
+    "chunkName": "pages/article/index",
+    "_name": "_b12a8430"
+  },
+  {
+    "name": "classificationList",
+    "path": "/classificationList",
+    "component": "/Users/zhangrenwen/專案/myBlog/app/pages/classificationList.vue",
+    "chunkName": "pages/classificationList",
+    "_name": "_2225af45"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "/Users/zhangrenwen/專案/myBlog/app/pages/login.vue",
+    "chunkName": "pages/login",
+    "_name": "_a5d95c50"
+  },
+  {
+    "name": "profile",
+    "path": "/profile",
+    "component": "/Users/zhangrenwen/專案/myBlog/app/pages/profile.vue",
+    "chunkName": "pages/profile",
+    "_name": "_9e99db50"
+  },
+  {
+    "name": "article-id",
+    "path": "/article/:id",
+    "component": "/Users/zhangrenwen/專案/myBlog/app/pages/article/_id.vue",
+    "chunkName": "pages/article/_id",
+    "_name": "_9a41cb60"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/Users/zhangrenwen/專案/myBlog/app/pages/index.vue",

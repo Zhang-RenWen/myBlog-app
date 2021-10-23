@@ -1,7 +1,7 @@
 <template>
-  <client-only>
-    <LatestArticles />
-  </client-only>
+  <div>
+    {{ 'aaaa' }}
+  </div>
 </template>
 
 <script lang="ts">
