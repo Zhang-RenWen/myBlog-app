@@ -15,7 +15,7 @@
 }
 #main {
   display: flex;
-  width: calc(100% - $sidebar-width);
+  width: calc(100% - #{$sidebar-width});
   min-height: 700px;
 }
 </style>
