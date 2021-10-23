@@ -13,7 +13,6 @@
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "latest",
-    "git-cz": "^4.8.0",
     "nuxt": "latest"
   },
   "devDependencies": {
@@ -21,7 +20,6 @@
     "@nuxt/typescript-build": "^2.1.0",
     "@nuxtjs/eslint-config-typescript": "^6.0.1",
     "@nuxtjs/style-resources": "^1.2.1",
-    "cz-customizable": "^6.3.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^5.0.0",
     "node-sass": "^4.14.1",
