@@ -10,9 +10,10 @@
 <style lang="scss" scoped>
 #mainfFrame {
   width: 100%;
-  background-color: #000000;
-  color: #ffffff;
+  color: #fff;
+  background-color: #000;
 }
+
 #main {
   display: flex;
   width: calc(100% - #{$sidebar-width});
