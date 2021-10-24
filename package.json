@@ -9,7 +9,8 @@
     "generate": "nuxt-ts generate",
     "start": "nuxt start",
     "heroku-postbuild": "nuxt build",
-    "stylelint-check": "stylelint-config-prettier-check"
+    "stylelint-check": "stylelint-config-prettier-check",
+    "lint": "eslint --ext .ts,.js,.vue ."
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "latest",

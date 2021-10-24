@@ -5,10 +5,10 @@
       fill="#00DC82"
     />
   </svg>
-</template>
 
-<style>
-.nuxt-logo {
-  height: 180px;
-}
-</style>
+  <style>
+    .nuxt-logo {
+      height: 180px;
+    }
+  </style>
+</template>
