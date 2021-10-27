@@ -14,8 +14,9 @@
       }
     ],
     "vue/singleline-html-element-content-newline": "off",
-    "vue/multiline-html-element-content-newline": "off"
+    "vue/multiline-html-element-content-newline": "off",
+    "prettier/prettier": "error"
   },
 
-  "extends": ["@nuxtjs/eslint-config-typescript", "plugin:vue/recommended"]
+  "extends": ["@nuxtjs/eslint-config-typescript", "plugin:vue/essential", "@vue/prettier"]
 }

@@ -1,5 +1,5 @@
 <template>
-  <div id="mainfFrame">
+  <div id="main-frame">
     <Header />
     <div id="main">
       <SideBar />
@@ -8,7 +8,7 @@
   </div>
 </template>
 <style lang="scss" scoped>
-#mainfFrame {
+#main-frame {
   width: 100%;
   color: #fff;
   background-color: #000;

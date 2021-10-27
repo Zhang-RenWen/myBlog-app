@@ -14,8 +14,9 @@
 header {
   width: 100%;
   @include display-flex-wrap;
+
   a {
-    color: #ffffff;
+    color: #fff;
   }
 }
 </style>
