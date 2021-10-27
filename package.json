@@ -10,7 +10,8 @@
     "start": "nuxt start",
     "heroku-postbuild": "nuxt build",
     "stylelint-check": "stylelint-config-prettier-check",
-    "lint": "eslint --ext .ts,.js,.vue ."
+    "lint": "eslint --ext .ts,.js,.vue .",
+    "pre-commit": "npm run lint"
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "latest",
@@ -45,17 +46,6 @@
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
-  "lint-staged": {
-    "*.{js,jsx,vue}": [
-      "eslint --ext .ts,.js,.vue .",
-      "git add"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "eslint --ext .ts,.js,.vue ."
     }
   }
 }
