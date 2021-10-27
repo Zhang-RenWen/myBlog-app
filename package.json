@@ -9,8 +9,8 @@
     "generate": "nuxt-ts generate",
     "start": "nuxt start",
     "heroku-postbuild": "nuxt build",
-    "stylelint-check": "stylelint-config-prettier-check",
     "lint": "eslint --ext .ts,.js,.vue .",
+    "stylelint": "stylelint **/*.{scss,css,vue}",
     "pre-commit": "npm run lint",
     "prepare": "husky install"
   },
@@ -18,7 +18,9 @@
     "@nuxt/typescript-runtime": "latest",
     "@nuxtjs/style-resources": "^1.2.1",
     "@nuxtjs/stylelint-module": "^4.0.0",
-    "nuxt": "latest"
+    "nuxt": "latest",
+    "stylelint-config-recommended-scss": "^5.0.0",
+    "stylelint-value-no-unknown-custom-properties": "^3.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^13.2.1",
@@ -44,6 +46,7 @@
     "stylelint": "^14.0.0",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-recess-order": "^2.5.0",
+    "stylelint-config-sass-guidelines": "^8.0.0",
     "stylelint-config-standard": "^23.0.0",
     "stylelint-processor-html": "^1.0.0",
     "stylelint-scss": "^4.0.0"

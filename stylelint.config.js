@@ -2,18 +2,15 @@ module.exports = {
   extends: [
     'stylelint-config-standard',
     'stylelint-config-recess-order',
-    'stylelint-config-prettier'
+    'stylelint-config-prettier',
+    'stylelint-config-recommended-scss',
+    'stylelint-config-sass-guidelines'
   ],
   plugins: ['stylelint-scss', 'stylelint-order', 'stylelint-value-no-unknown-custom-properties'],
   rules: {
+    'csstools/value-no-unknown-custom-properties': true || false || null,
     'order/order': ['custom-properties', 'declarations'],
     'max-nesting-depth': 3,
-    'at-rule-no-unknown': [
-      true,
-      {
-        ignoreAtRules: ['mixin']
-      }
-    ],
     'no-empty-source': null,
     'no-descending-specificity': null,
     'order/properties-alphabetical-order': null,
@@ -94,8 +91,7 @@ module.exports = {
     'property-no-vendor-prefix': null,
     'selector-max-compound-selectors': null,
     'scss/at-import-partial-extension-blacklist': null,
-    'value-no-vendor-prefix': null,
-    'csstools/value-no-unknown-custom-properties': [true]
+    'value-no-vendor-prefix': null
   },
   ignoreFiles: ['./node_modules/**/*.{css,scss,sass}', './dist/**/*.{css,scss,sass}']
 }
