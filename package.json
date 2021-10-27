@@ -47,7 +47,9 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
-  "pre-commit": [
-    "lint"
-  ]
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint"
+    }
+  }
 }
