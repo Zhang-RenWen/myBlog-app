@@ -47,9 +47,15 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
+  "lint-staged": {
+    "*.{js,jsx,vue}": [
+      "eslint --ext .ts,.js,.vue .",
+      "git add"
+    ]
+  },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint"
+      "pre-commit": "eslint --ext .ts,.js,.vue ."
     }
   }
 }
