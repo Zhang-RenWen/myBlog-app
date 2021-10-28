@@ -35,7 +35,7 @@ export default {
     }
   },
   styleResources: {
-    scss: ['./assets/scss/*.scss', '**/*.vue']
+    scss: ['./assets/scss/*.scss']
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
