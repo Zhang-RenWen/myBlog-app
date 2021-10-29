@@ -1,7 +1,6 @@
 {
   "engines": {
-    "node": "14.17.1",
-    "yarn": "1.22.15"
+    "node": "14.17.1"
   },
   "description": "Nuxt for Heroku deployment",
   "scripts": {
