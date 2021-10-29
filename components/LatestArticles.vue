@@ -1,3 +1,3 @@
 <template>
-  <div>LatestArticles</div>
+  <div>LatestArticles in Home page</div>
 </template>

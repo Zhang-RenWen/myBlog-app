@@ -20,7 +20,7 @@ export default {
     ]
   },
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['@/assets/scss/main.scss', '@/assets/scss/mixins.scss', '@/assets/scss/variables.scss'],
+  css: ['@/assets/scss/mixins.scss', '@/assets/scss/variables.scss'],
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
 
@@ -45,7 +45,10 @@ export default {
     postcss: {
       plugins: {
         // Disable `postcss-url`
-        'postcss-url': false
+        'postcss-url': false,
+        'postcss-nested': {},
+        'postcss-responsive-type': {},
+        'postcss-hexrgba': {}
       },
       preset: {
         autoprefixer: {

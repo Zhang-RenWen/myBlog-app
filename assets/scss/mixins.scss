@@ -7,3 +7,7 @@
   display: flex;
   flex-wrap: wrap;
 }
+@mixin flex-align-box-center {
+  align-items: center;
+  justify-content: center;
+}

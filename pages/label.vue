@@ -1,6 +1,6 @@
 <template>
   <div>
-    {{ 'profile' }}
+    {{ 'labelList' }}
   </div>
 </template>
 

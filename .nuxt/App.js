@@ -6,8 +6,6 @@ import NuxtError from './components/nuxt-error.vue'
 import NuxtLoading from './components/nuxt-loading.vue'
 import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
-import '../assets/scss/main.scss'
-
 import '../assets/scss/mixins.scss'
 
 import '../assets/scss/variables.scss'

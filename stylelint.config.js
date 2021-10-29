@@ -12,6 +12,7 @@ module.exports = {
     'declaration-colon-space-after': 'always-single-line',
     'declaration-colon-space-before': 'never',
     'declaration-block-trailing-semicolon': 'always',
+    'color-function-notation': 'legacy',
     'order/order': ['custom-properties', 'declarations'],
     'order/properties-order': [
       'position',
@@ -100,5 +101,5 @@ module.exports = {
       customSyntax: 'postcss-html'
     }
   ],
-  ignoreFiles: ['./node_modules/**/*.{css,scss,sass}', './dist/**/*.{css,scss,sass}']
+  ignoreFiles: ['./node_modules/**/*.{css,scss,sass}', './dist/**/*.{css,scss,sass}', '**/*.js']
 }

@@ -1,6 +1,6 @@
 <template>
   <div>
-    {{ 'classificationList' }}
+    {{ 'About' }}
   </div>
 </template>
 
