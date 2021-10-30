@@ -5,19 +5,31 @@
       <SideBar />
       <Nuxt />
     </div>
+    <Footer />
   </div>
 </template>
 <style lang="scss">
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: rgb(1, 3, 42);
+  // background-color: rgb(244, 247, 245);
+}
+
+p {
+  font-family: 'sans-serif;', 'PT Serif', serif;
+}
+
 #main-frame {
+  padding-top: $header-height;
   width: 100%;
-  color: #fff;
-  background-color: rgb(1, 5, 58);
 }
 
 #main {
   display: flex;
+  padding-left: $sidebar-width;
   width: calc(100% - #{$sidebar-width});
-  min-height: 700px;
+  min-height: 100vh;
+  color: white;
 }
 
 .d-flex {

@@ -3,42 +3,49 @@
     "name": "about",
     "path": "/about",
     "component": "/Users/zhangrenwen/專案/myBlog/app/pages/about.vue",
-    "chunkName": "pages/about"
+    "chunkName": "pages/about",
+    "_name": "_78985808"
   },
   {
     "name": "archive",
     "path": "/archive",
     "component": "/Users/zhangrenwen/專案/myBlog/app/pages/archive.vue",
-    "chunkName": "pages/archive"
+    "chunkName": "pages/archive",
+    "_name": "_362b961e"
   },
   {
     "name": "article",
     "path": "/article",
     "component": "/Users/zhangrenwen/專案/myBlog/app/pages/article/index.vue",
-    "chunkName": "pages/article/index"
+    "chunkName": "pages/article/index",
+    "_name": "_b12a8430"
   },
   {
     "name": "label",
     "path": "/label",
     "component": "/Users/zhangrenwen/專案/myBlog/app/pages/label.vue",
-    "chunkName": "pages/label"
+    "chunkName": "pages/label",
+    "_name": "_2157b83a"
   },
   {
     "name": "login",
     "path": "/login",
     "component": "/Users/zhangrenwen/專案/myBlog/app/pages/login.vue",
-    "chunkName": "pages/login"
+    "chunkName": "pages/login",
+    "_name": "_a5d95c50"
   },
   {
     "name": "article-id",
     "path": "/article/:id",
     "component": "/Users/zhangrenwen/專案/myBlog/app/pages/article/_id.vue",
-    "chunkName": "pages/article/_id"
+    "chunkName": "pages/article/_id",
+    "_name": "_9a41cb60"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/zhangrenwen/專案/myBlog/app/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_3928a27e"
   }
 ]

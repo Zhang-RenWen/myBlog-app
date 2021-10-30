@@ -1,8 +1,9 @@
 <template>
   <header>
     <div id="site-logo">
-      <nuxt-link to="/">Ren-Wen</nuxt-link>
+      <nuxt-link to="/">RENWEN'S BLOG |</nuxt-link>
     </div>
+
     <nav>
       <ul>
         <li @click="moveTo($event, 'about')"><nuxt-link to="/about">About</nuxt-link></li>
@@ -27,15 +28,24 @@ export default Vue.extend({
 </script>
 
 <style lang="scss" scoped>
+$header-text-color: #fff;
+
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
   align-items: center;
   justify-content: space-between;
   padding: 0 20px;
   width: 100%;
-  height: 65px;
-  mix-blend-mode: normal;
+  height: $header-height;
   background-color: #000;
+  border-bottom: 1px solid #fff;
+  z-index: 1;
 
+  a {
+    color: $header-text-color;
+  }
   @include display-flex-wrap;
 
   .site-logo {
@@ -61,6 +71,16 @@ header {
     padding: 0 15px;
     height: 100%;
     cursor: pointer;
+    transition-property: color, background-color;
+    transition-duration: 0.25s, 0.25s;
+  }
+
+  nav li:hover {
+    background-color: #fff;
+  }
+
+  nav li:hover > a {
+    color: #000;
   }
 }
 </style>

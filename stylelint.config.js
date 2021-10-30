@@ -7,6 +7,7 @@ module.exports = {
   ],
   plugins: ['stylelint-scss', 'stylelint-order'],
   rules: {
+    'scss/double-slash-comment-empty-line-before': 'never',
     'at-rule-no-unknown': null,
     'scss/at-rule-no-unknown': true,
     'declaration-colon-space-after': 'always-single-line',

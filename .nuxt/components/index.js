@@ -1,3 +1,4 @@
+export { default as Footer } from '../../components/Footer.vue'
 export { default as Header } from '../../components/Header.vue'
 export { default as LatestArticles } from '../../components/LatestArticles.vue'
 export { default as NuxtLogo } from '../../components/NuxtLogo.vue'
