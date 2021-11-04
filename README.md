@@ -1,40 +1,32 @@
-# myBlog-app
+#Project command line
+
+### Install the dependencies
 
 ```
-pages/
---| _slug/
------| comments.vue
------| index.vue
---| users/
------| _id.vue
---| index.vue
+yarn install
 ```
 
-# router configuration
+### Start the local development server
 
 ```
-router: {
-  routes: [
-    {
-      name: 'index',
-      path: '/',
-      component: 'pages/index.vue'
-    },
-    {
-      name: 'users-id',
-      path: '/users/:id?',
-      component: 'pages/users/_id.vue'
-    },
-    {
-      name: 'slug',
-      path: '/:slug',
-      component: 'pages/_slug/index.vue'
-    },
-    {
-      name: 'slug-comments',
-      path: '/:slug/comments',
-      component: 'pages/_slug/comments.vue'
-    }
-  ]
-}
+npm run dev
+```
+
+### Make correct commit messages before commit
+
+```
+git cz
+```
+
+### Check JavaScript and CSS Style Guide or syntax error (git commit would launch it!)
+
+```
+npm run lint
+
+```
+
+### Publish
+
+```
+npm run build
 ```

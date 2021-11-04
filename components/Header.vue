@@ -28,8 +28,6 @@ export default Vue.extend({
 </script>
 
 <style lang="scss" scoped>
-$header-text-color: #fff;
-
 header {
   position: fixed;
   top: 0;
@@ -39,13 +37,10 @@ header {
   padding: 0 20px;
   width: 100%;
   height: $header-height;
-  background-color: #000;
-  border-bottom: 1px solid #fff;
+  background-color: inherit;
   z-index: 1;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 50%);
 
-  a {
-    color: $header-text-color;
-  }
   @include display-flex-wrap;
 
   .site-logo {
@@ -76,11 +71,11 @@ header {
   }
 
   nav li:hover {
-    background-color: #fff;
+    background-color: rgb(156, 156, 156);
   }
 
   nav li:hover > a {
-    color: #000;
+    color: rgb(26, 26, 26);
   }
 }
 </style>

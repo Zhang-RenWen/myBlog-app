@@ -102,5 +102,10 @@ module.exports = {
       customSyntax: 'postcss-html'
     }
   ],
-  ignoreFiles: ['./node_modules/**/*.{css,scss,sass}', './dist/**/*.{css,scss,sass}', '**/*.js']
+  ignoreFiles: [
+    './node_modules/**/*.{css,scss,sass}',
+    './dist/**/*.{css,scss,sass}',
+    '**/*.js',
+    '**/*.md'
+  ]
 }

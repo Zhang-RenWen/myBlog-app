@@ -9,27 +9,32 @@
   </div>
 </template>
 <style lang="scss">
+html {
+  line-height: 1.5;
+}
+
 body {
-  font-family: 'Source Sans Pro', sans-serif;
-  background-color: rgb(1, 3, 42);
-  // background-color: rgb(244, 247, 245);
+  font-family: 'Source Sans Pro', sans-serif, 'Microsoft JhengHei';
 }
 
 p {
-  font-family: 'sans-serif;', 'PT Serif', serif;
+  padding: 20px;
+  font-family: 'sans-serif;', 'PT Serif', serif, 'Microsoft JhengHei';
 }
 
 #main-frame {
   padding-top: $header-height;
   width: 100%;
+  background-color: #fff;
 }
 
 #main {
   display: flex;
-  padding-left: $sidebar-width;
+  margin-left: $sidebar-width;
+  padding: 20px;
   width: calc(100% - #{$sidebar-width});
   min-height: 100vh;
-  color: white;
+  background-color: inherit;
 }
 
 .d-flex {
