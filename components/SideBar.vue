@@ -105,12 +105,12 @@ export default Vue.extend({
   @keyframes flash {
     0% {
       transform: scale(1);
-      opacity: 30%;
+      opacity: 0.3;
     }
 
     100% {
       transform: scale(3);
-      opacity: 0%;
+      opacity: 0;
     }
   }
 

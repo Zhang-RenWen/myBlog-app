@@ -14,6 +14,7 @@ module.exports = {
     'declaration-colon-space-before': 'never',
     'declaration-block-trailing-semicolon': 'always',
     'color-function-notation': 'legacy',
+    'alpha-value-notation': null,
     'order/order': ['custom-properties', 'declarations'],
     'order/properties-order': [
       'position',

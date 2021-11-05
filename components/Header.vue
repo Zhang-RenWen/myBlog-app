@@ -157,7 +157,7 @@ nav li:hover > a {
     div:nth-child(1),
     div:nth-child(3) {
       width: 0;
-      opacity: 0%;
+      opacity: 0;
     }
   }
 
@@ -173,7 +173,7 @@ nav li:hover > a {
     border: 1px solid #000;
     border-top: 0;
     border-radius: 0 0 6px 6px;
-    opacity: 0%;
+    opacity: 0;
     z-index: 2;
     transition: all 0.3s ease;
   }
@@ -192,7 +192,7 @@ nav li:hover > a {
   .mobile-nav-active {
     height: auto;
     min-height: 200px;
-    opacity: 100%;
+    opacity: 1;
   }
 }
 </style>
