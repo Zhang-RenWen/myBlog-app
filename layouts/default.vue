@@ -2,8 +2,8 @@
   <div id="main-frame">
     <Header />
     <div id="main">
-      <SideBar />
       <Nuxt />
+      <SideBar />
     </div>
     <Footer />
   </div>
@@ -23,6 +23,7 @@ p {
 }
 
 #main-frame {
+  overflow: hidden;
   padding-top: $header-height;
   width: 100%;
   background-color: #fff;
@@ -30,7 +31,6 @@ p {
 
 #main {
   display: flex;
-  margin-left: $sidebar-width;
   padding: 20px;
   width: calc(100% - #{$sidebar-width});
   min-height: 100vh;
@@ -58,5 +58,17 @@ li {
   margin: 0;
   padding: 0;
   list-style: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
+}
+
+@media (max-width: 500px) {
+  #main {
+    margin-left: 0;
+    width: 85%;
+  }
 }
 </style>
