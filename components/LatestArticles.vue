@@ -1,3 +1,27 @@
 <template>
-  <div>LatestArticles in Home page</div>
+  <div>
+    <h1>現代瀏覽器內部運作原理 1</h1>
+    <h2>前言</h2>
+    <p>
+      部落格設計之初到現在一直在思考首篇技術文章要分享什麼內容。
+      想到前些日子參加一場大型公司的校園徵才，該公司的服務在台灣地區幾乎每個人都會使用到。
+      在那裡有幸跟主辦公司的技術主管聊到求才標準的話題。 問了主管身為前端工程師最為重要的條件為何？
+      他告訴我框架和工作模式可以進公司再學，但瀏覽器原理必須要熟悉，因為該公司相當看重效能調校，這才意識到一個可以努力的方向並且慚愧自己開發給瀏覽器跑的網站3年了卻沒好好了解瀏覽器的運作，於是決定由這個主題來做開局。
+    </p>
+    <p>
+      雖然有很多前輩已經提供類似的研究文章了，
+      不過自己還是需要投入心力研究歸納總結最後才會成為自己的本事。
+      再歸納總結行程自身觀點的過程需要做筆記，用自己的話在闡述一遍。 歡迎各位指教！
+    </p>
+    <p>
+      本系列文章會參考
+      [MarikoKosaka](https://developers.google.com/web/resources/contributors/kosamari) 所著作的
+      inside-browser 系列文章作為參考資料。
+      盡可能用自己的話將參考文章的內容傳達出去，並附上過去遇到專案中有可以優化的部分當例子。
+    </p>
+    <p>
+      原文章架構 .....持續更新 具體可以優化程式碼的方式 .....持續更新 參考資料：
+      [https://developers.google.com/web/updates/2018/09/inside-browser-part1](https://developers.google.com/web/updates/2018/09/inside-browser-part1)
+    </p>
+  </div>
 </template>

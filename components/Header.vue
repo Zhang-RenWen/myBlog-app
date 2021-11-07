@@ -35,6 +35,7 @@ export default Vue.extend({
   methods: {
     moveTo(e: Event, routeName: String) {
       e.stopPropagation()
+      this.toggleMobileNav()
       this.$router.push(`${routeName}`)
     },
     ...mapMutations({
@@ -102,7 +103,7 @@ nav li:hover > a {
   color: rgb(26, 26, 26);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .mobile-nav-toggle {
     cursor: pointer;
     position: relative;

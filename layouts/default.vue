@@ -20,6 +20,7 @@ body {
 p {
   padding: 20px;
   font-family: 'sans-serif;', 'PT Serif', serif, 'Microsoft JhengHei';
+  word-break: break-all;
 }
 
 #main-frame {
@@ -65,7 +66,7 @@ li {
   padding-inline-start: 0;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   #main {
     margin-left: 0;
     width: 85%;

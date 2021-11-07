@@ -71,7 +71,7 @@ export default Vue.extend({
 .bio-toggle {
   display: none;
 }
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .bio-toggle {
     cursor: pointer;
     position: absolute;
