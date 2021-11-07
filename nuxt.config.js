@@ -61,5 +61,8 @@ export default {
         }
       }
     }
+  },
+  render: {
+    csp: true
   }
 }
