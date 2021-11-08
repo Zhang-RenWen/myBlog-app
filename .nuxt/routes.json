@@ -35,6 +35,13 @@
     "_name": "_a5d95c50"
   },
   {
+    "name": "writeNewArticle",
+    "path": "/writeNewArticle",
+    "component": "/Users/zhangrenwen/專案/myBlog/app/pages/writeNewArticle.vue",
+    "chunkName": "pages/writeNewArticle",
+    "_name": "_470e8c24"
+  },
+  {
     "name": "article-id",
     "path": "/article/:id",
     "component": "/Users/zhangrenwen/專案/myBlog/app/pages/article/_id.vue",

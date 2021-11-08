@@ -14,7 +14,41 @@ export default {
         content:
           '歡迎來到我的部落格！我是喜歡手沖咖啡、美食、看迷因的前端工程師。主要文章內容為技術筆記，分享部分生活體驗和興趣。'
       },
-      { name: 'format-detection', content: 'telephone=no' }
+      { name: 'format-detection', content: 'telephone=no' },
+      {
+        'http-equiv': 'Strict-Transport-Security',
+        content: 'max-age=31536000; includeSubDomains; preload'
+      },
+      {
+        'http-equiv': 'X-Content-Type-Options',
+        content: 'nosniff'
+      },
+      {
+        'http-equiv': 'X-XSS-Protection',
+        content: '1; mode=block'
+      },
+      {
+        'http-equiv': 'Referrer-Policy',
+        content: 'strict-origin'
+      },
+      {
+        'http-equiv': 'X-UA-Compatible',
+        content: 'IE=Edge'
+      },
+      {
+        'http-equiv': 'Feature-Policy',
+        content:
+          "accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment *; usb 'none'"
+      },
+      {
+        'http-equiv': 'Permissions-Policy',
+        content:
+          "accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment *; usb 'none'"
+      },
+      {
+        'http-equiv': 'X-Frame-Options',
+        content: 'SAMEORIGIN'
+      }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

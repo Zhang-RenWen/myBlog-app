@@ -9,6 +9,7 @@ const _362b961e = () => interopDefault(import('../pages/archive.vue' /* webpackC
 const _b12a8430 = () => interopDefault(import('../pages/article/index.vue' /* webpackChunkName: "pages/article/index" */))
 const _2157b83a = () => interopDefault(import('../pages/label.vue' /* webpackChunkName: "pages/label" */))
 const _a5d95c50 = () => interopDefault(import('../pages/login.vue' /* webpackChunkName: "pages/login" */))
+const _470e8c24 = () => interopDefault(import('../pages/writeNewArticle.vue' /* webpackChunkName: "pages/writeNewArticle" */))
 const _9a41cb60 = () => interopDefault(import('../pages/article/_id.vue' /* webpackChunkName: "pages/article/_id" */))
 const _3928a27e = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
@@ -43,6 +44,10 @@ export const routerOptions = {
     path: "/login",
     component: _a5d95c50,
     name: "login"
+  }, {
+    path: "/writeNewArticle",
+    component: _470e8c24,
+    name: "writeNewArticle"
   }, {
     path: "/article/:id",
     component: _9a41cb60,
