@@ -44,7 +44,7 @@ export default {
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ['@nuxtjs/stylelint-module'],
+  modules: ['@nuxtjs/stylelint-module', 'nuxt-helmet'],
 
   build: {
     postcss: {
@@ -82,5 +82,9 @@ export default {
         res.setHeader('X-UA-Compatible', 'IE=Edge')
       }
     }
+  },
+  helmet: {
+    'Permissions-Policy':
+      "accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment *; usb 'none'"
   }
 }

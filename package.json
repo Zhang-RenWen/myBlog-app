@@ -21,6 +21,7 @@
     "@vue/eslint-config-prettier": "^6.0.0",
     "autoprefixer": "^10.4.0",
     "nuxt": "latest",
+    "nuxt-helmet": "^2.0.1",
     "postcss-hexrgba": "^2.0.1",
     "postcss-nested": "^5.0.6",
     "postcss-responsive-type": "^1.0.0"
