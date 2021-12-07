@@ -1,4 +1,10 @@
 {
+  "extends": [
+    "@nuxtjs/eslint-config-typescript",
+    "plugin:vue/essential",
+    "airbnb-base",
+    "@vue/prettier"
+  ],
   "rules": {
     "space-before-function-paren": 0, //let ESLint work with Prettier avoiding conflicts and problems
     "vue/html-self-closing": [
@@ -15,8 +21,11 @@
     ],
     "vue/singleline-html-element-content-newline": "off",
     "vue/multiline-html-element-content-newline": "off",
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "no-param-reassign": [2, { "props": false }]
   },
 
-  "extends": ["@nuxtjs/eslint-config-typescript", "plugin:vue/essential", "@vue/prettier"]
+  "settings": {
+    "import/core-modules": ["vue", "vuex"] // these modules are included in nuxt.js
+  }
 }

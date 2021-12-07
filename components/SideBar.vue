@@ -1,5 +1,5 @@
 <template>
-  <div id="sidebar" class="sidebar" :class="[mobileSiderOpen ? '' : 'sidebar-mobile-closed']">
+  <div id="sidebar" class="sidebar" :class="[mobileSidebarOpen ? '' : 'sidebar-mobile-closed']">
     <div id="profile-image">
       <img
         src="https://media-exp1.licdn.com/dms/image/C5603AQFXQCWuyArP9g/profile-displayphoto-shrink_800_800/0/1594734553006?e=1641427200&amp;v=beta&amp;t=DfcWv5gw9p1g1yskr2ok_G8ZWQ4sNySKx-Bkww9AvJQ"
@@ -13,12 +13,12 @@
     </p>
     <div
       class="bio-toggle"
-      :class="[mobileSiderOpen ? 'bio-toggle-fixed' : '']"
-      @click="toggleMobileSiderOpen"
+      :class="[mobileSidebarOpen ? 'bio-toggle-fixed' : '']"
+      @click="toggleMobileSidebarOpen"
     >
-      <div v-show="!mobileSiderOpen" class="bio-button-animation-element"></div>
+      <div v-show="!mobileSidebarOpen" class="bio-button-animation-element"></div>
       <span>
-        {{ mobileSiderOpen ? 'X Close' : 'BIO' }}
+        {{ mobileSidebarOpen ? 'X Close' : 'BIO' }}
       </span>
     </div>
   </div>
@@ -27,15 +27,17 @@
 <script lang="ts">
 import Vue from 'vue'
 import { mapMutations } from 'vuex'
+
 export default Vue.extend({
   computed: {
-    mobileSiderOpen() {
-      return this.$store.state.ui.mobileSiderOpen
+    mobileSidebarOpen() {
+      return this.$store.state.ui.mobileSidebarOpen
     }
   },
+
   methods: {
     ...mapMutations({
-      toggleMobileSiderOpen: 'ui/toggleMobileSiderOpen'
+      toggleMobileSidebarOpen: 'ui/toggleMobileSidebarOpen'
     })
   }
 })
