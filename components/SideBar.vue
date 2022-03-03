@@ -2,7 +2,7 @@
   <div id="sidebar" class="sidebar" :class="[mobileSidebarOpen ? '' : 'sidebar-mobile-closed']">
     <div id="profile-image">
       <img
-        src="https://media-exp1.licdn.com/dms/image/C5603AQFXQCWuyArP9g/profile-displayphoto-shrink_800_800/0/1594734553006?e=1641427200&amp;v=beta&amp;t=DfcWv5gw9p1g1yskr2ok_G8ZWQ4sNySKx-Bkww9AvJQ"
+        src="https://media-exp1.licdn.com/dms/image/C5603AQFXQCWuyArP9g/profile-displayphoto-shrink_800_800/0/1594734553006?e=1651708800&v=beta&t=UvZMBu_yMkL7MULdkpQePowSD--au65zdT6A5TWvWSQ"
         loading="lazy"
         alt="檔案照片"
       />
